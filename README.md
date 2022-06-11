@@ -33,7 +33,7 @@ Programming language: Python 3.7.9.
 2.How to use？
 
 
-First, preprocess the image: Cut the porous media slice into 80 * 80 * 80 size pictures and combine into one tif.
+First, preprocess the image: Cut the porous media slice into 80 * 80 * 80 size pictures and combine into one tif. Then run the lowres.py to get LR tif as the training image.
 
 
 Secondly, set the network parameters such as maxscalenum, batchsize, learning rate and storage location.  After configuring the parameters and environment, you can run maim.py directly.
